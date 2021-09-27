@@ -22,11 +22,11 @@ namespace WebApiSelfHostBC.Models
                              .FirstOrDefault(p => p.Id == id));
 
                 if (company != null) return company;
-                return new Message { Alert = "Not Found a company with Id=" + id };
+                return new  { Alert = "Not Found a company with Id=" + id };
             }
             catch (Exception ex)
             {
-                return JsonConvert.SerializeObject(new Message { Alert = ex.GetType() + "! - not create a new company!!!" });
+                return JsonConvert.SerializeObject(new { Alert = ex.GetType() + "! - not create a new company!!!" });
             }
         }
         //
@@ -40,7 +40,7 @@ namespace WebApiSelfHostBC.Models
             }
             catch (Exception ex)
             {
-                return new Message { Alert = "GetCompanys:  " + ex.GetType().FullName };
+                return new  { Alert = "GetCompanys:  " + ex.GetType().FullName };
             }
         }
         //
@@ -69,7 +69,7 @@ namespace WebApiSelfHostBC.Models
              }
             catch (Exception ex)
             {
-                return new Message { Alert = "GetCompanys:  " + ex.GetType().FullName };
+                return new { Alert = "GetCompanys:  " + ex.GetType().FullName };
             }
         }
         //
@@ -80,11 +80,11 @@ namespace WebApiSelfHostBC.Models
                 context.Companys.Add(company);
                 await   context.SaveChangesAsync();
                 company = context.Entry(company).Entity;
-                return JsonConvert.SerializeObject(new Result { Id = company.Id });
+                return JsonConvert.SerializeObject(new  { Id = company.Id });
             }
             catch (Exception ex)
             {
-                return JsonConvert.SerializeObject(new Message { Alert = ex.GetType()+"! - not create a new company!!!" });
+                return JsonConvert.SerializeObject(new { Alert = ex.GetType()+"! - not create a new company!!!" });
             }
         }
         //

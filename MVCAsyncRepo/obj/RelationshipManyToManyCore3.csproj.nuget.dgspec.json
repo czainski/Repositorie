@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\czain\\Desktop\\Repository\\Repository\\ManyToManyRepoAsyn\\ManyToManyRepoAsyn\\RelationshipManyToManyCore3.csproj": {}
+    "C:\\Users\\czain\\Desktop\\Transfer\\From\\MVCAsyncRepo\\RelationshipManyToManyCore3.csproj": {}
   },
   "projects": {
-    "C:\\Users\\czain\\Desktop\\Repository\\Repository\\ManyToManyRepoAsyn\\ManyToManyRepoAsyn\\RelationshipManyToManyCore3.csproj": {
+    "C:\\Users\\czain\\Desktop\\Transfer\\From\\MVCAsyncRepo\\RelationshipManyToManyCore3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\czain\\Desktop\\Repository\\Repository\\ManyToManyRepoAsyn\\ManyToManyRepoAsyn\\RelationshipManyToManyCore3.csproj",
+        "projectUniqueName": "C:\\Users\\czain\\Desktop\\Transfer\\From\\MVCAsyncRepo\\RelationshipManyToManyCore3.csproj",
         "projectName": "RelationshipManyToManyCore3",
-        "projectPath": "C:\\Users\\czain\\Desktop\\Repository\\Repository\\ManyToManyRepoAsyn\\ManyToManyRepoAsyn\\RelationshipManyToManyCore3.csproj",
+        "projectPath": "C:\\Users\\czain\\Desktop\\Transfer\\From\\MVCAsyncRepo\\RelationshipManyToManyCore3.csproj",
         "packagesPath": "C:\\Users\\czain\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\czain\\Desktop\\Repository\\Repository\\ManyToManyRepoAsyn\\ManyToManyRepoAsyn\\obj\\",
+        "outputPath": "C:\\Users\\czain\\Desktop\\Transfer\\From\\MVCAsyncRepo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -88,7 +88,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
